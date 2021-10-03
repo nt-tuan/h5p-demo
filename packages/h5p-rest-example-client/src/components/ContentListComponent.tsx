@@ -100,7 +100,7 @@ export default class ContentList extends React.Component<{
                 contentList: this.state.contentList.filter((c) => c !== content)
             });
         } catch (error) {
-            console.error(error.message);
+            console.error(error);
         }
     }
 
